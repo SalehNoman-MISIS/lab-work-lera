@@ -1,0 +1,14 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local experiment outputs (full runs can be very large)
+outputs/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
