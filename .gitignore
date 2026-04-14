@@ -8,6 +8,14 @@ venv/
 
 # Local experiment outputs (full runs can be very large)
 outputs/
+python_lab/outputs/
+cpp_lab/outputs/
+
+# C++ build artifacts
+cpp_lab/build/
+
+# VS Code local settings
+.vscode/
 
 # OS/editor artifacts
 .DS_Store
