@@ -26,3 +26,8 @@ Main files:
 ## Notes
 - Full benchmark parameters are identical across both methods.
 - C++ is recommended for completing full 10x20 runs faster on modern hardware (e.g., Apple M-series).
+
+## Current Status (April 14, 2026)
+- Python full run was started with assignment parameters and reached `137/200` cycles.
+- The run was stopped due to very long execution time on sorted datasets for unbalanced BST.
+- The project now treats Python as validation/prototyping and C++ (`cpp_lab`) as the execution path for full final measurements.
